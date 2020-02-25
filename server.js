@@ -2,6 +2,9 @@ const express = require('express');
 const fetch = require('node-fetch');
 const redis = require('redis');
 const cors = require('cors');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const PORT = process.env.PORT || 3001;
 const REDIS_PORT = process.env.PORT || 6379;
