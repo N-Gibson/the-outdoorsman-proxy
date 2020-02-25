@@ -10,3 +10,11 @@ const client = redis.createClient(REDIS_PORT);
 
 const app = express();
 app.use(cors());
+
+app.post('/coordinates', async (req, res) => {
+  try {
+    const response = await fetch('');
+  } catch (error) {
+    console.error(error);
+  }
+});
