@@ -13,7 +13,7 @@ app.use(cors());
 
 app.post('/coordinates', async (req, res) => {
   try {
-    const response = await fetch('');
+    const response = await fetch(`https://global.skyhookwireless.com/wps2/json/location?key=${process.env.LOCATION_KEY}&user=${process.env.LOCATION_USER}`);
   } catch (error) {
     console.error(error);
   }
