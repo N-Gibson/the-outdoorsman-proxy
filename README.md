@@ -1,6 +1,6 @@
 # the-outdoorsman-proxy
 
-This is a proxy server that makes a fetch request to 
+This is a proxy server that makes a fetch request to the [Skyhook](https://www.skyhook.com/) api in order to recieve the location of a user. 
 
 ## Tech
 
@@ -14,7 +14,7 @@ The tech used in this app includes:
 
 ## Setup
 
-1) Run `git clone https://github.com/N-Gibson/gh-search-proxy.git`
+1) Run ``
 
 2) Cd into directory
 
