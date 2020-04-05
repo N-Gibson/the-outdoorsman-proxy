@@ -1,0 +1,23 @@
+# the-outdoorsman-proxy
+
+This is a proxy server that makes a fetch request to 
+
+## Tech
+
+The tech used in this app includes:
+
+- Node.js
+- Express.js
+- redis
+- node-fetch
+- CORS
+
+## Setup
+
+1) Run `git clone https://github.com/N-Gibson/gh-search-proxy.git`
+
+2) Cd into directory
+
+3) Run `npm install` to install dependencies
+
+4) Run `nodemon server.js` to start server
