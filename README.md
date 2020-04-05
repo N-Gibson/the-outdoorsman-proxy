@@ -14,7 +14,7 @@ The tech used in this app includes:
 
 ## Setup
 
-1) Run ``
+1) Run `git clone https://github.com/N-Gibson/the-outdoorsman-proxy.git`
 
 2) Cd into directory
 
